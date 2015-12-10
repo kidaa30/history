@@ -1,0 +1,2830 @@
+#internalMain {
+	position:static;
+	width:620px;
+	overflow: hidden;
+	float:left;
+	z-index:0;
+}
+
+#internalSidebar {
+	width:336px;
+	float:right;
+	text-align:center;
+	padding-bottom:15px;
+}
+
+#main {
+	width:985px;
+}
+
+#contentGeneric {
+	background:#5d6568 url(http://m.bestofmedia.com/i/tomshardware/design/bg-contentNew.gif) left top repeat-y;
+}
+
+blockquote,#news-content blockquote {
+	font-family:Arial;
+	font-weight:bold;
+	font-style:italic;
+	font-size:14px;
+	text-align:justify;
+	border-style:dashed;
+	padding:4px;
+	border-width:1px;
+	margin-left:0;
+	margin-right:0;
+	margin-bottom:15px;
+	background-color:#ddd;
+	clear:both;
+}
+
+div.avatar {
+	background:#fff url(http://img.presence-pc.com/v3/auteurs/default.gif) top left no-repeat;
+	width:50px;
+	height:50px;
+	float:left;
+	margin:0 10px 4px 0;
+}
+
+div.avatar img {
+	width:50px;
+	height:50px;
+	border:1px solid #efefef;
+}
+
+#news-content h3 {
+	font-weight:bold;
+	color:#000;
+	font-size:13px;
+	margin-bottom:1.5em;
+}
+
+#news-content {
+	line-height:1.5em;
+}
+
+#news-content p {
+	margin-bottom:1.5em;
+}
+
+#newsCateg-first {
+	padding:10px;
+	margin:10px 0;
+}
+
+#newsCateg-first img {
+	float:left;
+	margin:0 8px 0 0;
+}
+
+#newsCateg-first p {
+	text-align:justify;
+}
+
+.comment {
+	display:block;
+	height:32px;
+	line-height:32px;
+	float:left;
+	background:url(http://m.bestofmedia.com/i/tomshardware/design/bg-toolbarNews.png) left -64px no-repeat;
+	padding-left:35px;
+}
+
+#nbComment {
+	position:absolute;
+	right:0;
+	bottom:10px;
+}
+
+.greyBox {
+	margin:10px 0;
+	padding:10px;
+	background-color:#f5f4f4;
+}
+
+.greyBoxL {
+	float:left;
+	width:55%;
+}
+
+.greyBoxL li {
+	margin-left:5px;
+	font-size:11px;
+}
+
+.greyBoxL strong,#header-news-thema strong,#header-news-thema2 strong {
+	font-weight:700;
+}
+
+.greyBoxR {
+	float:right;
+	width:45%;
+	text-align:right;
+}
+
+#header-news-thema {
+	float:right;
+	width:200px;
+}
+
+#header-news-thema .title {
+	color:#af261e;
+	display:block;
+	text-align:right;
+	font-size:11px;
+	margin-bottom:3px;
+}
+
+#header-news-thema ul {
+	float:right;
+}
+
+#header-news-thema ul li {
+	float:left;
+}
+
+#header-news-thema ul li a {
+	float:left;
+	display:block;
+	width:59px;
+	height:54px;
+	overflow:hidden;
+	text-indent:-999px;
+	margin-left:5px;
+}
+
+#header-news-infos {
+	font-size:11px;
+	color:#3c3b3b;
+	float:left;
+}
+
+#form_cont {
+	display:none;
+}
+
+.adInNews {
+	border-top:1px solid #000;
+	border-bottom:1px solid #000;
+	text-align:center;
+	padding:5px 0;
+	width:450px;
+	margin:0 auto 5px;
+}
+
+.adInNewsText {
+	text-align:right;
+	width:450px;
+	margin:0 auto;
+}
+
+.toolbarNews li,.toolbarNews a {
+	display:block;
+	float:left;
+	line-height:32px;
+	height:32px;
+}
+
+.toolbarNews .langs a {
+	height:13px;
+  width:18px;
+}
+
+.toolbarNews li {
+	margin-right:15px;
+}
+
+.toolbarNews li.toolbarNews-print,.toolbarNews li.toolbarNews-send,.toolbarNews li.toolbarNews-comment,.toolbarNews li.toolbarNews-bookmark {
+	background:url(http://m.bestofmedia.com/i/tomshardware/design/bg-toolbarNews.png) left top no-repeat;
+	padding-left:32px;
+}
+
+.toolbarNews li.toolbarNews-send {
+	background-position:left -32px;
+}
+
+.toolbarNews li.toolbarNews-comment {
+	background-position:left -64px;
+}
+
+.toolbarNews li.toolbarNews-bookmark {
+	background-position:left -96px;
+}
+
+.translated-content {
+	padding:10px 0;
+}
+
+.translated-content .translated-content-text {
+	color:#000;
+	float:left;
+	font-size:10px;
+}
+
+.deliciousIcon,.facebookIcon,.diggitIcon {
+	float:right;
+	width:16px;
+	height:16px;
+	margin:0 0 0 10px;
+	background:transparent url(http://m.bestofmedia.com/i/tomsguide/design/web2tools-sprite.gif) -32px top no-repeat;
+}
+
+.facebookIcon {
+	background-position:-16px top;
+}
+
+.diggitIcon {
+	background-position:0 top;
+}
+
+
+	
+/*
+	SplitCols
+*/
+.splitCols-left {
+
+	
+/*	float: left;*/
+
+	
+/*	width: 270px;*/
+}
+
+.splitCols-right {
+	float:right;
+	width:336px;
+}
+
+.splitCols li {
+	padding:5px;
+	line-height:1.1em;
+	margin:5px 0;
+}
+
+.adCentral {
+	text-align:center;
+	padding:10px 0 0;
+}
+
+
+	
+/* SplitCols  */
+
+	
+/*
+	Dropmenu suppl.
+*/
+#contentResume-top {
+	padding-top:5px;
+}
+
+#contentResume-top .tableContent-title,#contentResume-top .dropMenu {
+	float:left;
+}
+
+#contentResume-top .tableContent-title {
+	display:block;
+	font-weight:700;
+	color:#000;
+	height:35px;
+	line-height:35px;
+	padding-right:10px;
+}
+
+
+	
+/* End dropmenu suppl. */
+
+	
+/* =paginationReviews
+---------------------------------------------- */
+ul.paginationReviews {
+	clear:both;
+	margin-top:15px;
+}
+
+ul.paginationReviews li.prev {
+	float:left;
+  width:27%;
+}
+
+ul.paginationReviews li.prev span {
+	background:none;
+	display:block;
+	font-weight:bold;
+	padding:3px 0 0 20px;
+}
+
+ul.paginationReviews li.next {
+	float:right;
+	text-align:right;
+}
+
+ul.paginationReviews li.next span {
+	background:none;
+	text-align:right;
+	display:block;
+	font-weight:bold;
+	padding:3px 20px 0 0;
+	margin-top:-8px;
+}
+
+.paginationReviews .dropMenuv2 .dropMenu-title {
+  background:none;
+  line-height:25px;
+  padding-left:6px;
+}
+
+.paginationReviews .dropMenuv2 .dropMenu-title span {
+  background:none;
+  float:left;
+  overflow: hidden;
+  width: 83%;
+  text-align:left;
+}
+
+.paginationReviews .dropMenuv2 .dropMenu-title .dropPicto {
+  background: url(http://m.bestofmedia.com/i/tomshardware/v2/sprites3.png) -142px -1212px no-repeat;
+  padding-right:0px;
+  display:block;
+  width:24px;
+  height:25px;
+  float:right;
+}
+
+#reviewPage #internalMain .google_ads_bom_block {
+  background-color:#F5F6F8;
+  font-size: 12px;
+  margin-left: -5px;
+  padding-left: 16px;
+  padding-top: 10px;
+  padding-bottom:5px;
+}
+
+#reviewPage #internalMain .google_ads_bom_title {
+  background:none;
+  font-size:12px;
+}
+
+#reviewPage #internalMain .google_ads_bom_title a{
+  left:0px;
+  background-color:transparent!important;
+  color:#000000 !important;
+}
+
+ #reviewPage #internalMain .google_ads_bom_href2 {
+  color:#114376;
+}
+
+ul.paginationReviews li {
+    line-height: 18px;
+}
+
+ul.paginationReviews li.center {
+  width: 48%;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 14px;
+  float: left;
+  margin-top:-4px;
+}
+
+ul.paginationReviews li.center ul li {
+    display: inline;
+}
+
+ul.paginationReviews li.prev a {
+    text-transform: uppercase;
+    color:#000000;
+    font-weight:bold;
+}
+
+ul.paginationReviews li.prev .arrow {
+  background: url("http://m.bestofmedia.com/i/tomshardware/v2/sprites3.png") no-repeat scroll -37px -1219px transparent;
+  display: block;
+  float: left;
+  height: 27px;
+  width: 6px;
+}
+
+ul.paginationReviews li.prev span {
+    background: none;
+    display: block;
+    font-weight: bold;
+    padding: 3px 0px 0px 20px;
+}
+
+ul.paginationReviews li.next a {
+  background:none;
+  text-align: right;
+  display: block;
+  text-transform: uppercase;
+  color:#000000;
+  font-weight:bold;
+}
+
+ul.paginationReviews li.next .arrow {
+  background: url("http://m.bestofmedia.com/i/tomshardware/v2/sprites3.png") no-repeat scroll -64px -1212px transparent;
+  display: block;
+  float: right;
+  height: 27px;
+  width: 6px;
+  margin-left:5px;
+}
+
+ul.paginationReviews li.next span {
+  background: none;
+  text-align: right;
+  display: block;
+  font-weight: bold;
+  padding: 3px 20px 0px 0px;
+  margin-top: -8px;
+}
+
+/* End paginationReviews ------------------------------ */
+
+/** Reviews */
+.sommaire  {
+  background-color:#f5f6f7;
+  margin-bottom: -6px;
+  margin-top: -8px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-top: 1px;
+}
+
+.sommaire h5 {
+    margin: 10px 0;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+.sommaire  ul{
+  padding-left:5px;
+}
+
+.sommaire .times {
+  color:#114376;
+}
+
+.featuredTopics {
+  margin-top:5px;
+}
+
+.latestNews ul, .latestReviews  ul{
+  margin-top:8px;
+}
+
+#commentForm .basicMainDotted  {
+  background:none;
+}
+
+/** End reviews */
+
+/* =PRICERUNNER
+---------------------------------------------- */
+#pricerunner {
+	width:120px;
+	float:right;
+	margin-left:10px;
+}
+
+#pricerunner p {
+	font-weight:normal;
+	font-size:11px;
+	color:#1893D4;
+}
+
+#pricerunner table {
+	width:100%;
+}
+
+#pricerunner table tr td img {
+	width:120px;
+}
+
+#pricerunner table tr td .price {
+	font-size:15px;
+	font-weight:bold;
+	color:#AF261E;
+}
+
+
+	
+/* End PRICERUNNER --------------------------- */
+
+	
+/* IMAGES AND SPIP
+---------------------------------------------- */
+.table-wrapper {
+	margin-bottom:15px;
+}
+
+#news-content strong,#news-content strong * {
+	font-weight:bold;
+}
+
+#news-content em,#news-content em * {
+	font-style:italic;
+}
+
+#news-content table {
+	border-collapse:collapse;
+	margin:0 auto;
+	clear:both;
+}
+
+#news-content table caption {
+	background-color:#3A3A38;
+	color:#fff;
+	font-size:1.1em;
+	font-weight:bold;
+	padding:4px;
+	margin:0 auto;
+	text-align:center;
+}
+
+#news-content table td,#news-content table th {
+	padding:4px;
+	border:1px solid white;
+	text-align:center;
+}
+
+#news-content table th a {
+	color:#FFF;
+}
+
+#news-content table td.spipleft {
+	text-align:left;
+}
+
+#news-content table .row_first {
+	background:url(http://m.bestofmedia.com/i/tomshardware/design/bg-th.gif) left top repeat-x;
+}
+
+#news-content table .row_odd {
+	background:#EFEFEF;
+}
+
+#news-content ul {
+	padding-left:30px;
+	margin-left:20px;
+	list-style-type:disc;
+	margin-bottom:1.5em;
+}
+
+#news-content ul.paginationReviews {
+	list-style-type:none;
+	margin:0;
+	padding: 0 0 2px;
+}
+
+#news-content ul.halfLeft,#news-content ul.halfRight {
+	padding:0;
+	margin:0;
+	list-style-type:none;
+}
+
+#news-content ol {
+	padding-left:10px;
+	margin-left:20px;
+	list-style-type:decimal;
+	margin-bottom:1.5em;
+}
+
+#news-content h4 {
+	font-size:13px;
+	margin-bottom:15px;
+	color:#000;
+}
+
+
+	
+/*
+	STYLES DES TABLEAUX
+*/
+
+	
+/* -- Style 1 --*/
+#news-content table.editorTblStyleStyle1 * {
+	color:#000000;
+}
+
+#news-content table.editorTblStyleStyle1 table,#news-content table.editorTblStyleStyle1 tr,#news-content table.editorTblStyleStyle1 th,#news-content table.editorTblStyleStyle1 td {
+	border:1px solid #adb6b9;
+}
+
+#news-content table.editorTblStyleStyle1 th {
+	font-weight:normal;
+	background-color:#efefef;
+}
+
+
+	
+/* -- Style 2 --*/
+#news-content table.editorTblStyleStyle2 * {
+	color:#000000;
+}
+
+#news-content table.editorTblStyleStyle2 th {
+	font-weight:bold;
+	color:white;
+	background-color:#373737;
+}
+
+#news-content table.editorTblStyleStyle2 tr.tblEven td {
+	background-color:#efefef;
+}
+
+#news-content table.editorTblStyleStyle2 table,#news-content table.editorTblStyleStyle2 tr,#news-content table.editorTblStyleStyle2 th,#news-content table.editorTblStyleStyle2 td {
+	border:1px solid white;
+}
+
+
+	
+/* -- Style 3 --*/
+#news-content table.editorTblStyleStyle3 * {
+	color:#000000;
+}
+
+#news-content table.editorTblStyleStyle3 caption {
+	color:#fff;
+}
+
+#news-content table.editorTblStyleStyle3 table,#news-content table.editorTblStyleStyle3 tr,#news-content table.editorTblStyleStyle3 th,#news-content table.editorTblStyleStyle3 td {
+	border:1px solid white;
+}
+
+#news-content table.editorTblStyleStyle3 th {
+	font-weight:bold;
+	color:white;
+	background-color:#336699;
+}
+
+#news-content table.editorTblStyleStyle3 tr.tblEven td {
+	background-color:#c5d9f1;
+}
+
+
+	
+/* -- Style 4 --*/
+#news-content table.editorTblStyleStyle4 * {
+	color:#000000;
+}
+
+#news-content table.editorTblStyleStyle4 table,#news-content table.editorTblStyleStyle4 tr,#news-content table.editorTblStyleStyle4 th,#news-content table.editorTblStyleStyle4 td {
+	border:1px solid white;
+}
+
+#news-content table.editorTblStyleStyle4 th {
+	font-weight:bold;
+	color:white;
+	background-color:#336699;
+}
+
+#news-content table.editorTblStyleStyle4 tr.tblEven td {
+	background-color:#efefef;
+}
+
+
+	
+/* -- Style 5 --*/
+#news-content table.editorTblStyleStyle5 * {
+	color:#000000;
+}
+
+#news-content table.editorTblStyleStyle5 table,#news-content table.editorTblStyleStyle5 tr,#news-content table.editorTblStyleStyle5 th,#news-content table.editorTblStyleStyle5 td {
+	border:1px solid white;
+}
+
+#news-content table.editorTblStyleStyle5 th {
+	font-weight:bold;
+	color:white;
+	background-color:#779e04;
+}
+
+#news-content table.editorTblStyleStyle5 tr.tblEven td {
+	background-color:#efefef;
+}
+
+
+	
+/* -- Size tableau -- */
+#news-content table.editorTblSize10 {
+	width:10%;
+}
+
+#news-content table.editorTblSize20 {
+	width:20%;
+}
+
+#news-content table.editorTblSize30 {
+	width:30%;
+}
+
+#news-content table.editorTblSize40 {
+	width:40%;
+}
+
+#news-content table.editorTblSize50 {
+	width:50%;
+}
+
+#news-content table.editorTblSize60 {
+	width:60%;
+}
+
+#news-content table.editorTblSize70 {
+	width:70%;
+}
+
+#news-content table.editorTblSize80 {
+	width:80%;
+}
+
+#news-content table.editorTblSize90 {
+	width:90%;
+}
+
+#news-content table.editorTblTablecenter td {
+  text-align: center;
+}
+
+#news-content table.editorTblTableright td {
+  text-align: right;
+}
+
+
+#news-content li {
+	list-style-position:outside;
+}
+
+
+	
+/* -- */
+.imgLeft {
+	float:left;
+	margin-left:0;
+}
+
+.imgRight {
+	float:right;
+}
+
+.imgCenter {
+	margin:0 auto;
+	text-align:center;
+	display:block;
+}
+
+.imgContent {
+	text-align:center;
+	margin:0 15px 15px;
+}
+
+td.imgContent {
+	padding:10px;
+	vertical-align:top;
+	text-align:center;
+}
+
+.imgContent .spipLegend {
+	font-size:10px;
+	margin:5px auto 0;
+	display:block;
+	text-align:center;
+}
+
+.imgContent .spipLegend a {
+	font-size:10px;
+}
+
+.imgContent .spipLegend img {
+	display:inline;
+	padding:0;
+	margin:0;
+	margin-bottom:-10px;
+}
+
+.imgTab {
+	margin:10px auto;
+}
+
+
+	
+/* End IMAGES AND SPIP--------------------------------- */
+
+	
+/* Social bookmarking --------------------------------- */
+#nav ul {
+	padding:0;
+	margin:0;
+	list-style:none;
+	line-height:1;
+	z-index:1;
+}
+
+#nav li ul {
+	position:absolute;
+	background:#F0F0F0;
+	width:130px;
+	left:-999em;
+	margin-top:25px;
+	padding:5px;
+}
+
+#nav li:hover ul,#nav li.sfhover ul {
+	left:auto;
+}
+
+#web2Tools {
+	padding-top:10px;
+	text-align:right;
+}
+
+
+	
+/*
+ * Top recherche
+ */
+ul.topRecherche li {
+	display:inline;
+	padding-right:10px;
+}
+
+
+	
+/*
+ * Listing produits
+ */
+.listingProduct .vignette {
+	display:block;
+	float:left;
+	width:60px;
+	margin:0 5px 5px 0;
+	overflow:hidden;
+	border:1px solid #D2DEE5;
+}
+
+.listingProduct .vignette img {
+	width:60px;
+}
+
+.listingProduct .productName {
+	display:block;
+	width:453px;
+}
+
+.listingProduct .bestPrice {
+	color:#ADB6B9;
+}
+
+.listingProduct .bestPrice .price {
+	color:#C20B29;
+	font-weight:bold;
+}
+
+
+	
+/*
+ * Top consultation
+ */
+#topConsultation .oneTopConsultation {
+	padding:0 0 0 10px;
+}
+
+#topConsultation .oneTopConsultation {
+	float:left;
+	width:190px;
+	text-align:center;
+	height:150px;
+
+	
+/* hauteur 140px pour voir 2 lignes, 150px pour 3 lignes, etc. */
+	padding:3px 3px 0;
+	overflow:hidden;
+}
+
+#topConsultation .borderB {
+	border-bottom:1px dotted #B1BECA;
+}
+
+#topConsultation .borderR {
+	border-right:1px dotted #B1BECA;
+}
+
+#topConsultation .price {
+	color:#C20B29;
+	font-weight:bold;
+}
+
+
+	
+/* =PHOTOREPORTAGE
+---------------------------------------------------- */
+.picturestory_content {
+  margin-bottom:10px;
+}
+
+.picturestory_content strong {
+  font-weight:bold;
+}
+
+.picturestory_content #header-news-thema {
+  float:left;
+  width:auto;
+}
+
+.picturestory_content #header-news-thema .title {
+  text-align:left;
+}
+
+.picturestory_content #header-news-thema ul {
+  float:left;
+}
+
+.picturestory_content_effect {
+  background-color: #F2F2F2;
+  border-bottom: 1px solid #D8D6D7;
+  border-top: 1px solid #D8D6D7;
+  margin-left: -14px;
+  margin-top:-4px;
+  padding-top: 5px;
+}
+
+.ie6 .picturestory_content_effect {
+  width:1000px;
+  padding-left:14px;
+}
+
+.th_de .picturestory_content_effect {
+  margin-left: -8px;
+}
+
+#main .picturestory_slideshow {
+  float:left;
+  width: 650px;
+}
+
+.ie6 .picturestory_slideshow {
+  margin-right:10px;
+}
+
+#main .photoreportage_desc {
+  float:left;
+  width:330px;
+  margin-top:10px;
+}
+ 
+.photoreportage_desc #picDesc {
+  margin-bottom:5px;
+  clear:both;
+  font-size: 12px;
+  line-height: 1.5em;
+}
+
+.photoreportage_desc #picFullDesc {
+  margin-bottom:5px;
+  clear:both;
+  font-size: 12px;
+  line-height: 1.5em;
+}
+
+#main .photoreportage_desc .picDesc{
+  margin-top: 10px;
+  margin-bottom:15px;
+  clear:both;
+}
+
+.photoreportage_desc .picDesc p{
+  margin-bottom:4px;
+  margin-top:4px;
+}
+
+
+.slideShow {
+    position: relative;
+}
+
+#slideOverlay{
+  background: #060C10 url(http://m.bestofmedia.com/sfp/images/design/ajax/bigDarkLoader.gif) center center no-repeat;
+  height:450px;
+  width : 600px;
+  position: absolute;
+  opacity: 0.8;
+  padding : 15px;
+  z-index:9999;
+}
+
+.js .h { display: none; }
+
+.js .hide, .js .ui-tabs-hide, .js .h { display:none;}
+
+#picturestory_dld_button {
+  margin-bottom:8px;
+  float:left;
+  margin-left: 100px;
+}
+
+.ie6 #picturestory_dld_button {
+  margin-left:50px;
+}
+
+#picturestory_dld_button .btDld{
+  background: url("http://m.bestofmedia.com/i/tomshardware/v2/sprites3.png") no-repeat scroll left -767px transparent;
+  padding-left: 10px;
+  height: 23px;
+  float:left;
+  display:block;
+  text-decoration:none;
+}
+
+#picturestory_dld_button .dld_label {
+  color: #FFFFFF;
+  padding-right: 15px;
+  line-height: 21px;
+  height: 23px;
+  font-weight:bold;
+  float:left;
+  background: url("http://m.bestofmedia.com/i/tomshardware/v2/sprites3.png") no-repeat scroll right -767px transparent;
+}
+
+#picturestory_dld_button .btDld .picto {
+  float:left;
+  background: url('http://m.bestofmedia.com/i/tomshardware/v2/tha_picturestory_icons.png') no-repeat scroll -47px -52px transparent;
+  margin-top: 4px;
+  padding-right: 17px;
+  display:block;
+}
+
+#main .picturestory_slideshow  div .topBottom{
+  padding:15px 10px 5px 10px;
+  text-align:left;
+  display:none;
+  background: #FFF;
+  bottom:0;
+  left : 6px;
+  height:24px;
+  opacity:0.9;
+  position:absolute;
+  width:95%;
+}
+
+#main .picturestory_slideshow  div .topBottom .unitR{
+  margin-top: -7px;
+}
+
+#main .picturestory_slideshow  .facebooklike{
+  width:60%;
+}
+
+#main .picturestory_slideshow  .facebookLikeInline {
+  width:100%;
+}
+
+#main .picturestory_slideshow  .facebookLikeInline {
+  margin-top: -4px;
+}
+
+#main .picturestory_slideshow .topBottom a:hover #btZoom, #main .picturestory_slideshow .topBottom a:hover #btComment {
+  background-position: left -108px;
+}
+
+#main .picturestory_slideshow .topBottom  a:hover .bt_end{
+  background-position: -214px -108px;
+}
+
+#main .picturestory_slideshow #btZoom, #main .picturestory_slideshow #btComment {
+  background: url('http://m.bestofmedia.com/i/tomshardware/v2/tha_picturestory_icons.png') no-repeat scroll left -82px transparent;
+  display: block;
+  height: 26px;
+  padding-left: 6px;
+  float:left;
+}
+
+#main .picturestory_slideshow .topBottom .bt_end{
+  height: 26px;
+  background: url('http://m.bestofmedia.com/i/tomshardware/v2/tha_picturestory_icons.png') no-repeat scroll -214px -82px transparent;
+  display:block;
+  float:left;
+  padding-right:8px;
+}
+
+#main .picturestory_slideshow .topBottom a {
+  text-decoration:none;
+}
+
+#main .picturestory_slideshow .topBottom .bt_label {
+  color: #000000;
+  font-weight: bold;
+  line-height: 26px;
+  padding-left: 6px;
+}
+
+#main .picturestory_slideshow .topBottom .btComment_out {
+  margin-right:5px;
+}
+
+#main .picturestory_slideshow .topBottom #btZoom .picto{
+  background: url('http://m.bestofmedia.com/i/tomshardware/v2/tha_picturestory_icons.png') no-repeat scroll -20px -43px transparent;
+  height: 26px;
+  width: 15px;
+  float:left;
+}
+
+#main .picturestory_slideshow .topBottom #btComment .picto{
+  background: url('http://m.bestofmedia.com/i/tomshardware/v2/tha_picturestory_icons.png') no-repeat scroll 0px -43px transparent;
+  height: 26px;
+  width: 14px;
+  float:left;
+  display:block;
+}
+
+#internalMain .toolbarNews {
+  margin-top:5px;
+}
+
+.picturestory_content #header-news-title {
+  font-weight: bold;
+  display:block;
+  font-size: 30px;
+  margin-top: -14px;
+  margin-bottom: 5px;
+}
+
+.picturestory_content .picContainer {
+  overflow: hidden;
+  width: 632px;
+  float: left;
+  margin-left: 5px;
+  margin-bottom: 10px;
+}
+
+.ie6 .picturestory_content .picContainer {
+}
+
+.picturestory_content #header-news {
+  margin-left:10px;
+}
+
+.picturestory_content #header-news-title-under {
+  position:relative;
+  font-size: 1px;
+  display:block;
+  height:100%;
+  width:100%;
+}
+
+.picturestory_content #header-news-title-under .header-news-title-overlay {
+  background: none repeat scroll 0 0 #FFFFFF;
+  bottom: 0px;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+
+.picturestory_content .headShare {
+  clear:both;
+  padding-top: 5px;
+}
+
+.picturestory_content #picNext, .picturestory_content #picPrev{
+  background: url('http://m.bestofmedia.com/i/tomshardware/v2/tha_picturestory_icons.png') no-repeat scroll 0px 0px transparent;
+  height: 40px;
+  width: 34px;
+  cursor:pointer;
+  display:block;
+}
+
+.picturestory_content #picNext {
+  background-position:-222px 5px;
+}
+
+.picturestory_content #picPrev {
+  background-position: -184px 5px;
+}
+
+.picturestory_content #picPrev.h{
+  display:block;
+  visibility:hidden;
+}
+
+.picturestory_content #picNext.h{
+  display:block;
+  visibility:hidden;
+}
+
+.picturestory_content #picturestory_pagination{
+  height: 50px;
+  text-align:center;
+}
+
+.picturestory_content #picturestory_pagination .psPagination{
+  display:inline-block;
+}
+
+.ie6 .picturestory_content #picturestory_pagination .psPagination, .ie7 .picturestory_content #picturestory_pagination .psPagination{
+  margin-left: 232px;
+}
+
+.picturestory_content #picturestory_pagination .page-txt{
+  margin-top:13px;
+  margin-right: 6px;
+  margin-left: 6px;
+}
+
+.picturestory_content .imgContent{
+  background-color: #FFFFFF;
+  border-color: #DFDFDF #B1B1B1 #B1B1B1 #DFDFDF;
+  border-style: solid;
+  border-width: 1px;
+  margin: 0 5px;
+  max-height: 450px;
+  max-width: 600px;
+  overflow: hidden;
+  padding: 10px;
+}
+
+.photoreportage_desc .picTitle {
+  color:#000000;
+  font-size: 19px;
+  font-weight: bold;
+}
+
+
+/* ================== */
+/* = Carousel & Co = */
+/* ================== */
+
+.ie6 .picturestory_content #header-news, .ie6 #internalMain {
+  margin-left:12px;
+}
+
+#main {
+  overflow:visible;
+}
+
+.bgInactive {
+  background-color : #e7e7e7;
+}
+#carousel{
+  position : relative;
+  background : #060C10;
+  border-top : 2px solid #ccc;
+  margin-bottom : 15px;
+  margin-top:8px;
+}
+
+#carousel-container {
+	position:relative;
+	overflow:hidden;
+  clear: both;
+  margin-left: -12px;
+  margin-right: -12px;
+}
+
+.carousel-component {
+	position: relative;
+	overflow: hidden;
+	visibility: visible; /* component turns it on when first item is rendered */
+}
+
+.carousel-component ul.carousel-list {
+  width: 10000000px; 
+	position: relative;
+	z-index: 1;
+}
+.ie6 .carousel-component ul.carousel-list{
+  width : 990px;
+}
+
+.carousel-component .carousel-list li {
+	float: left;
+	list-style: none;
+	overflow: hidden;
+  margin:5px 14px;
+}
+.carousel-component .carousel-list li a{
+  display:block;
+  height:90px;
+  margin-bottom:15px;
+  overflow:hidden;
+  text-align:center;
+  width:120px;
+  border : 1px solid #3b4044;
+}
+.carousel-component .carousel-list li a:hover{
+  border : 1px solid #fff;
+}
+.carousel-component .carousel-list li a:focus,
+.carousel-component .carousel-list li .active{
+  border : 3px solid #fff;
+}
+
+
+.carousel-component .carousel-vertical li {
+	float: none;
+	margin-bottom: 0;
+}
+
+.carousel-component ul.carousel-vertical {
+	width: auto;
+}
+
+.carousel-component .carousel-clip-region {
+	overflow: hidden;
+	margin: 0 auto;
+	position: relative;
+}
+
+#carousel #html-carousel {
+  position : relative;
+  margin: 8px 52px;
+  padding-left: 10px;
+  overflow:hidden;
+  height:117px;
+  width:auto;
+}
+
+#next-arrow,
+#prev-arrow{
+  width : 25px;
+  height : 25px;
+  text-indent : -9999px;
+  background : transparent url('http://m.bestofmedia.com/i/tomshardware/v2/tha_picturestory_icons.png') no-repeat scroll 0 ;
+}
+
+#next-arrow {
+  background-position: -138px -5px;
+  cursor:pointer;
+  position: absolute;
+  z-index: 1;
+  right: 22px;
+  top: 44%;
+}
+
+.ie6 #next-arrow {
+  top:8%;
+}
+
+#next-arrow.active {
+  background-position: -44px -5px;
+}
+
+#prev-arrow {
+  background-position: -90px -5px;
+  cursor:pointer;
+  position: absolute;
+  z-index: 1;
+  left: 16px;
+  top: 44%;
+}
+
+.ie6 #prev-arrow {
+  top:8%;
+}
+
+#prev-arrow.active{
+  background-position: 4px -5px;
+}
+
+#forOverlay{
+  position : relative;
+}
+/* Overlay */
+#carousel #overlay{
+  width: 905px;
+  height: 113px;
+  background: #060C10 url(http://m.bestofmedia.com/sfp/images/design/ajax/bigDarkLoader.gif) center center no-repeat;
+  position: absolute;
+  left: 42px;
+  padding-top: 10px;
+  z-index: 100;
+  filter:alpha(opacity=80);
+  opacity: 0.8;
+} 
+
+.picturestory_content .arwLeft,
+.picturestory_content .arwRight{
+  border-style:solid;
+  border-width:5px;
+  position:absolute;
+  z-index:1;
+  font-size : 0px;
+}
+
+.picturestory_content .arwLeft{
+  border-color: #F4F4F4  #797979 #797979 #F4F4F4;
+  top:0px;
+  left:0px;
+}
+
+.picturestory_content .arwRight{
+  border-color: #F4F4F4 #F4F4F4 #797979 #797979;
+  top:0px;
+  right:0px;
+}
+
+.ie7 .picturestory_content .arwLeft{
+  border-width:10px 10px 0 0;
+  top:-2px;  
+}
+
+.ie7 .picturestory_content .arwRight{
+  border-width:10px 0 0 10px;
+  top:-2px;  
+}
+
+	
+/* END PHOTOREPORTAGE ------------------------------ */
+
+	
+/* = ALBUMSRELATIFS
+---------------------------------------------------- */
+#main .oneThumbRelative {
+	float:left;
+	text-align:center;
+	margin:10px 11px 0;
+	width:130px;
+}
+
+#main .oneThumbRelative .imgThumb {
+	width:130px;
+	height:90px;
+	line-height:90px;
+	display:block;
+	overflow:hidden;
+}
+
+#main .oneThumbRelative .imgThumb:hover {
+	text-decoration:none;
+}
+
+#main .oneThumbRelative .imgThumb img {
+	display:inline;
+	vertical-align:middle;
+}
+
+#main .oneThumbRelative .legendThumb {
+	margin-top:5px;
+}
+
+#main .oneThumbRelative .legendThumb p {
+	color:#ADB6B9;
+	font-size:11px;
+}
+
+.basicSidebar .oneThumbRelative {
+	margin:10px 0;
+}
+
+.basicSidebar .oneThumbRelative .imgThumb {
+	width:120px;
+	height:80px;
+	margin-right:10px;
+	display:block;
+	overflow:hidden;
+	float:left;
+	border:1px solid #D2DEE5;
+	text-align:center;
+}
+
+.basicSidebar .oneThumbRelative .imgThumb img {
+}
+
+.basicSidebar .oneThumbRelative .legendThumb {
+	padding-top:15px;
+	float:left;
+	width:135px;
+}
+
+.basicSidebar .oneThumbRelative .legendThumb p {
+	color:#ADB6B9;
+}
+
+
+	
+/* END ALBUMSRELATIFS ------------------------------ */
+
+	
+/* IMPORTE PPC ----------------------------- /*
+
+/*
+* evaluation
+*/
+.evaluation {
+	clear:both;
+	display:block;
+	width:100%;
+	margin:15px 0;
+	border-left:1px solid #CBCCCD;
+	border-right:1px solid #CBCCCD;
+}
+
+.orangeFanGreyBg {
+	background-image:url(http://m.bestofmedia.com/i/tomshardware/design/orange_fan_grey_bg.gif);
+	background-repeat:no-repeat;
+	background-position:2px 1px;
+	padding-left:25px;
+	font-size:14px;
+	font-weight:bold;
+	padding-top:1px;
+	height:18px;
+	border-top:1px solid #CBCCCD;
+	border-bottom:1px solid #CBCCCD;
+	background-color:#CBCCCD;
+}
+
+.evaluation .encadreBordsGrisSansBordsHt {
+	padding-top:7px;
+	padding-bottom:7px;
+	padding-right:12px;
+	padding-left:12px;
+	font-weight:bold;
+}
+
+.evaluation .encadreGrisAvecBords {
+	height:20px;
+	background-color:#EFEFEF;
+	border-top:1px solid #DEDEDE;
+	border-bottom:1px solid #DEDEDE;
+	padding:0;
+	margin:0;
+	font-size:12px;
+	font-weight:bold;
+}
+
+#news-content .evaluation ul li {
+	list-style:none;
+}
+
+#news-content .evaluation ul.listingInLine {
+	padding:0;
+	margin:0;
+	padding-top:3px;
+	padding-bottom:3px;
+}
+
+#news-content .evaluation ul.listingInLine li {
+	width:278px;
+	padding:0;
+	margin:0;
+	margin-left:10px;
+	text-align:center;
+	border:0 solid red;
+	float:left;
+}
+
+#news-content .evaluation ul.listing {
+	padding:0;
+	margin:0;
+}
+
+#news-content .evaluation ul.listing li {
+	width:219px;
+	padding-left:31px;
+	margin:0;
+	text-align:left;
+	border:0 solid blue;
+}
+
+#news-content li.evalPlus {
+	background-image:url(http://m.bestofmedia.com/i/tomshardware/design/eval_plus.gif);
+	background-repeat:no-repeat;
+	background-position:10px 2px;
+}
+
+#news-content li.evalMoins {
+	background-image:url(http://m.bestofmedia.com/i/tomshardware/design/eval_moins.gif);
+	background-repeat:no-repeat;
+	background-position:10px 2px;
+}
+
+.StripesBg {
+	clear:both;
+	float:left;
+	background-image:url(http://m.bestofmedia.com/i/bestofmicro/design/actualite/bg_grey_border.gif);
+	background-position:283px 0;
+	background-repeat:repeat-y;
+	border:1px solid #DEDEDE;
+	border-top:0;
+	padding-top:5px;
+	padding-bottom:7px;
+	width:100%;
+}
+
+
+	
+/*
+ * styles tableaux comparatifs
+ */
+.tablo-title,th {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold!important;
+	text-align:center;
+	color:#FFF;
+	text-decoration:none!important;
+	background-color:#336699;
+	border:1px solid white;
+}
+
+.tablo tr {
+	height:20px;
+	border:1px solid white;
+}
+
+.pointerhand {
+	cursor:pointer;
+	cursor:hand;
+}
+
+table.tablo {
+	background-color:#fff;
+	margin:10px auto;
+	width:450px;
+	border:1px solid white;
+}
+
+.tablo td {
+	padding:5px;
+	border:1px solid white;
+}
+
+.selection {
+	color:#000;
+	font-size:12px;
+	font-weight:normal;
+	border-top-width:1px;
+	border-bottom-width:1px;
+	border-left-width:1px;
+	border-right-width:1px;
+}
+
+tr.myrow,td.myrow,.tablo tr {
+	background-color:#FFF;
+	border:1px solid white;
+}
+
+tr.myrowt,td.myrowt {
+	background-color:#336699;
+	border:1px solid white;
+}
+
+tr.myrowo,td.myrowo {
+	background-color:#EFEFEF;
+	border:1px solid white;
+}
+
+tr.myrowt th {
+	width:100%;
+	border:1px solid white;
+}
+
+
+	
+/*
+ * =insideNews (contenu article)
+ */
+.insideNews ul {
+	margin:1.5em 0 0 3em;
+	list-style:disc outside;
+}
+
+.insideNews ul li {
+	padding:3px 0 0;
+}
+
+
+	
+/*----------------------------------*/
+
+	
+/*--- NEW LEXIQUE -----------------------------*/
+a.termeLexique {
+	text-decoration:none;
+	color:#066cb6;
+	background:url(http://m.bestofmedia.com/i/bestofmicro/admin/design/icones/lexique_th.gif) right center no-repeat;
+	padding-right:6px;
+	padding-top:8px;
+}
+
+#BOM-Lexique {
+	width:400px;
+	text-align:left;
+	position:absolute;
+	top:50%;
+	left:30%;
+	z-index:20;
+	background:transparent url(http://m.bestofmedia.com/i/tomsguide/design/shadowAlpha.png) right bottom no-repeat;
+	padding:0 6px 6px 0;
+}
+
+#BOM-Lexique table {
+	width:404px;
+	-moz-border-radius:10px;
+	border-radius:10px;
+	padding:3px;
+	background:white;
+	margin-left:-4px;
+	margin-top:-4px;
+	position:relative;
+	border:1px solid silver;
+}
+
+#BOM-Lexique-strong {
+	padding-left:4px;
+	font-weight:bold;
+}
+
+#BOM-Lexique table th {
+	padding:5px;
+	margin-bottom:10px;
+	font-weight:bold;
+	font-size:13px;
+	margin:1px;
+	color:black;
+	text-align:left;
+	background:#FFF;
+	display:block;
+}
+
+#BOM-Lexique-close {
+	position:absolute;
+	top:3px;
+	right:12px;
+	display:block;
+	width:14px;
+	height:14px;
+	background:url(http://m.bestofmedia.com/i/tomsguide/design/bt-close.gif) left top no-repeat;
+	text-indent:-999px;
+	overflow:hidden;
+}
+
+#BOM-Lexique-logo {
+	top:3px;
+	right:32px;
+	width:30px;
+	height:30px;
+	display:block;
+	background:url(http://m.bestofmedia.com/i/bestofmicro/admin/contentmgr/logo_lexique.png) right top no-repeat;
+	display:block;
+	text-indent:-999px;
+	overflow:hidden;
+	float:left;
+}
+
+#BOM-Lexique-link {
+	text-align:right;
+	display:block;
+	padding:3px;
+	color:#50A7EA;
+}
+
+#BOM-Lexique-def {
+	padding:5px;
+}
+
+#BOM-Lexique-nameHead {
+	font-weight:bold;
+	color:#000;
+	font-weight:700;
+	color:#50A7EA;
+}
+
+#BOM-Lexique-nameFooter {
+	font-weight:bold;
+	color:#000;
+	font-weight:700;
+	color:#50A7EA;
+}
+
+span.BOM-Lexique-notVisibleData {
+	display:none;
+}
+
+
+	
+/*--- END NEW LEXIQUE ---------- */
+
+	
+/*********** Comparateur V2 ***********/
+div#topConsultation {
+	position:relative;
+	z-index:100;
+}
+
+.oneTopConsultation {
+	text-align:center;
+
+	
+/*background: #FFF url(http://m.bestofmedia.com/i/tomsguide/design/dotted.gif) 0 bottom repeat-x ;*/
+	padding:8px 1px;
+	float:left;
+	width:190px;
+	height:140px;
+	border:0 solid red;
+	margin-left:3px;
+	background-color:#fff;
+}
+
+.borderR {
+	border-right:1px dotted #B1BECA;
+}
+
+.borderHGR {
+	background-color:#fff;
+	z-index:20;
+	height:150px;
+	border:1px solid #d7d7d7;
+	border-bottom:0;
+}
+
+.price {
+	font-weight:bold;
+	color:#C20B29;
+	display:block;
+	padding:5px 0;
+	font-size:12px;
+}
+
+.opaciteMoin {
+	filter:Alpha(opacity=20);
+	-moz-opacity:0.20;
+	opacity:0.20;
+	height:100%;
+}
+
+div.tablauxPrix {
+	position:absolute;
+	background-color:#FFF;
+	width:100%;
+	left:0;
+	top:153px;
+	top:163px;
+	z-index:2;
+	border:1px solid #d7d7d7;
+}
+
+div.comparateurv2 {
+	width:90%;
+	border:1px #ddd solid;
+	margin:0 auto;
+	padding:1px;
+	padding:0;
+}
+
+div.comparateurv2 .spip {
+	font-size:11px;
+}
+
+div.tablauxPrix div.comparateurv2 {
+	border:0;
+	width:100%;
+}
+
+div.comparateurv2 table {
+	width:100%;
+}
+
+div.comparateurv2 th {
+	text-align:center;
+	color:#000;
+	background:#ebebeb;
+	border:1px #fff solid;
+}
+
+div.comparateurv2 th a.compar_link {
+	text-align:left;
+	display:block;
+	width:340px;
+	float:left;
+	margin:O;
+	padding:O;
+}
+
+div.comparateurv2 th p {
+	text-align:right;
+	float:right;
+	color:#000;
+	font-weight:lighter;
+	margin-top:5px;
+}
+
+div.comparateurv2 th p strong {
+	font-weight:700;
+}
+
+div.comparateurv2 .row_first th {
+	background:url(http://m.bestofmedia.com/i/tomshardware/design/bg-th-red.gif) left top repeat-x;
+	color:#fff;
+}
+
+div.comparateurv2 th a {
+	color:#1378E0;
+	font-weight:lighter;
+}
+
+div.comparateurv2 strong.compar_total {
+	color:#c9253b;
+	text-decoration:underline;
+	font-weight:700;
+}
+
+div.comparateurv2 tr#rowUnderlined {
+	background-color:#7d7d7d;
+
+	
+/* Couleur du surlignement */
+	color:#fff;
+	cursor:pointer;
+}
+
+div.comparateurv2 tr#rowUnderlined strong.compar_total {
+	color:#fff;
+}
+
+div.comparateurv2 td.compar_cp {
+	height:45px;
+	height:35px;
+	background:url(http://m.bestofmedia.com/i/tomsguide/design/bg-comparoV2.gif) no-repeat right bottom;
+}
+
+div.comparateurv2 td.compar_cp input {
+	vertical-align:middle;
+	display:inline-block;
+	margin:0;
+}
+
+div.comparateurv2 td.compar_cp label {
+	font-weight:700;
+	color:#000;
+	z-index:100;
+}
+
+div.comparateurv2 div.lesprixV2 {
+	position:relative;
+}
+
+div.comparateurv2 .cpSuggest {
+	width:350px;
+	margin:34px 0 0;
+	position:absolute;
+	top:0;
+	right:0;
+	background:#FFF;
+	border:1px solid #ddd;
+	border-top:0;
+	filter:Alpha(opacity=95);
+	-moz-opacity:0.95;
+	opacity:0.95;
+	text-align:right;
+}
+
+div.comparateurv2 .cpSuggest li {
+	padding:5px;
+	margin:0;
+	border-top:1px solid #ddd;
+	cursor:pointer;
+}
+
+div.comparateurv2 a.closeSuggest {
+	height:14px;
+	width:14px;
+	background:url(http://m.bestofmedia.com/i/tomsguide/design/bt-close-compar.gif) no-repeat;
+	position:absolute;
+	top:42px;
+	right:330px;
+	text-indent:-999px;
+	z-index:10;
+}
+
+
+	
+/*********** FIN Comparateur V2 ***********/
+
+	
+/* LES NUMERIQUES */
+#logoNum {
+	float:right;
+}
+
+#logoNum span {
+	font-style:italic;
+	float:left;
+}
+
+#sommairePagi {
+	float:left;
+	font-weight:bold;
+	line-height:35px;
+	margin-right:10px;
+}
+
+#news-content ul.paginationReviewsNum {
+	margin:0;
+	padding:0;
+	list-style-type:none;
+}
+
+ul.paginationReviewsNum li {
+	float:left;
+	width:30%;
+}
+
+ul.paginationReviewsNum li.mid {
+	text-align:center;
+	width:20%;
+	float:none;
+	margin:0 auto;
+}
+
+ul.paginationReviewsNum li.next {
+	text-align:right;
+	float:right;
+}
+
+ul.paginationReviewsNum li.prev a {
+	background:url(http://m.bestofmedia.com/i/tomshardware/design/previous.gif) left center no-repeat;
+	padding:0 5px 5px 10px;
+}
+
+ul.paginationReviewsNum li.next a {
+	background:url(http://m.bestofmedia.com/i/tomshardware/design/next.gif) right center no-repeat;
+	padding:0 10px 5px 5px;
+}
+
+#lesNumsPage #news-content table {
+	clear:none;
+}
+
+
+	
+/* ENCADRE */
+#encadre {
+	float:right;
+	width:178px;
+	background:#efefef;
+	padding:10px;
+	font-size:10px;
+	margin:0 0 15px 15px;
+}
+
+#encadre h5 {
+	font-size:16px;
+	color:#0a71d6;
+	margin:0 0 5px;
+	padding:0;
+	text-align:center;
+}
+
+#encadre span.imgContent {
+	display:block;
+	float:none;
+	text-align:center;
+	margin:0;
+	padding:0;
+}
+
+#encadre span.imgContent .spipLegend {
+	display:none;
+}
+
+
+	
+/* NEWS V2 */
+#header-news-infos {
+	font-size:10px;
+	padding-top:2px;
+  clear:both;
+}
+
+#header-news-tools {
+	float:right;
+}
+
+#header-news-tools ul li {
+	display:inline;
+	color:#114376;
+}
+
+#header-news-tools ul li a {
+	font-size:9px;
+	padding-left:20px;
+	background:url(http://m.bestofmedia.com/i/tomshardware/v2/header-news-tools.png) left 1px no-repeat;
+}
+
+#header-news-tools ul li #printTools {
+	background-position:left -10px;
+	padding:1px 0 1px 20px;
+}
+
+#header-news-tools ul li #commentTools {
+	background-position:left -25px;
+}
+
+#header-news-tools ul li #bookmarkTools {
+	background-position:left -38px;
+	padding-left:15px;
+}
+
+#header-nextNews {
+	position:absolute;
+	right:0;
+	top:10px;
+	font-size:14px;
+	font-weight:bold;
+	padding-right:25px;
+	background:url(http://m.bestofmedia.com/i/tomshardware/v2/header-news-tools.png) right -65px no-repeat;
+}
+
+#header-news {
+	margin-bottom:10px;
+}
+
+.price {
+	display:inline;
+}
+
+a:visited.price {
+	color:#C20B29;
+}
+
+.greyTables h4,.greyTablesHalf h4 {
+	background-color:#cbd2d9;
+	font-size:12px;
+	font-weight:bold;
+	color:#000;
+	padding:5px 0 5px 20px;
+}
+
+.greyTablesHalf {
+	width:49%;
+	float:left;
+	margin-right:2px;
+	height:146px;
+}
+
+.btmGreyTables {
+	padding:5px 20px;
+	background-color:#eceef0;
+	height:130px;
+}
+
+.simplePagination {
+	margin-top:10px;
+}
+
+.simplePagination-previous,.simplePagination-next { position: relative; }
+.simplePagination-previous a,.simplePagination-next a {
+	background:none;
+	width: 260px;
+	display: block;
+	float: left;
+}
+.simplePagination-next a { float: right; padding-left:0; padding-right:22px; }
+
+.arrowPicto {
+    width:20px;
+	height: 18px;
+	display:block;
+	position: absolute;
+}
+
+.simplePagination-previous .leftArrow {
+	background:url(http://m.bestofmedia.com/i/tomshardware/v2/header-news-tools.png) left -50px no-repeat;
+	left:0;
+	padding:0;
+}
+
+.simplePagination-next .rightArrow {
+	background:url(http://m.bestofmedia.com/i/tomshardware/v2/header-news-tools.png) right -67px no-repeat;
+	right:0;
+	padding:0;
+}
+
+
+#pagiNews {
+	clear : both;
+	display : block;
+	zoom : 1;
+
+}
+
+#pagiNews .pagiLeft, #pagiNews .pagiRight {
+        width: 45%;
+}
+
+#pagiNews .pagiLeft {
+        float: left;
+        padding: 3px 0 0 0;
+}
+
+#pagiNews .pagiRight {
+        float: right;
+        text-align: right;
+        padding: 3px 0 0 0;
+}
+
+#internalMain .basicMain { _width:580px !important; _overflow: hidden; }
+#pagiNews { overflow:visible; }
+.pagiLeft a { margin-right:30px; padding-left: 24px; background:#FFFFFF url(http://m.bestofmedia.com/i/tomshardware/v2/link-arrow-left.gif) no-repeat 3px 5px; }
+.pagiRight a { margin-left:30px; padding-right: 24px; background:#FFFFFF url(http://m.bestofmedia.com/i/tomshardware/v2/link-arrow-right.gif) no-repeat 98% 5px; }
+.pagiNewsContainer { position: relative;z-index: 9999; margin:15px 0; }
+.pagiNewsContainer:hover { position: relative;z-index: 9999; }
+.pagiNewsContainer a {
+    display:block;
+    position: relative;
+    z-index: 3000;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border:1px solid #FFFFFF;
+    border-bottom: none;
+}
+.pagiNewsContainer a.hoverTrigger { border:1px solid #CCCCCC; border-bottom: none; }
+.pagiNewsContainer ul li a { width:auto; padding:0; margin:0; background-color:#FFFFFF; background-image: none; display:inline; }
+.pagiNewsContainer ul li a:hover { color:#B0251E; }
+.pagiNewsSub {
+    display: none;
+    position: absolute;
+    left:0;
+    background-color: #FFFFFF;
+    z-index: 2000;
+    border:1px solid #CCCCCC;
+    width:294px;
+}
+.pagiNewsContainer:hover .pagiNewsSub { display: block; }
+.pagiNewsSub li {
+    margin:0 25px 5px 25px;
+    text-align:left;
+}
+
+
+.titleNewsSidebar {
+	background:transparent url(http://m.bestofmedia.com/i/tomshardware/v2/bg-newsSidebarTitle.png) right top repeat-y;
+	line-height:22px;
+	font-size:12px;
+	font-weight:bold;
+	color:#3c3b3b;
+	margin:5px 0;
+}
+
+.titleNewsSidebar span {
+	display:block;
+	float:left;
+	width:31px;
+	height:25px;
+	margin-right:5px;
+	background-image:url(http://m.bestofmedia.com/i/tomshardware/v2/bg-pictoSidebar.png);
+	background-repeat:no-repeat;
+}
+
+.titleNewsSidebar span.articles {
+	background-position:left top;
+}
+
+.titleNewsSidebar span.charts {
+	height:32px;
+	background-position:left -30px;
+}
+
+.titleNewsSidebar span.news {
+	background-position:left -63px;
+}
+
+#newsPage .dropMenuv2 {
+	float:right;
+	margin:0 18px 0 0;
+}
+
+#newsPage .dropMenuv2 .dropMenu-title {
+	width:110px;
+}
+
+
+	
+/* TABLEAUX DE PRIX */
+.tableauPrix {
+	border:1px solid #dae2e4;
+	background-color:#f3f4f6;
+	clear:both;
+}
+
+#news-content .tableauPrix table {
+	border-collapse:separate;
+}
+
+#news-content .tableauPrix table td.border {
+	border-left:1px solid white;
+	border-right:1px solid #dce1e5;
+}
+
+#news-content .tableauPrix table a {
+	font-weight:bold;
+}
+
+#news-content .tableauPrix table td .price {
+	font-weight:normal;
+	font-size:11px;
+}
+
+
+	
+/* TABLEAUX DE PRIX SIDEBAR */
+ul.tableauPrixSb {
+	margin:5px 0;
+}
+
+ul.tableauPrixSb li {
+	clear:both;
+}
+
+ul.tableauPrixSb li img {
+	width:60px;
+	float:left;
+	margin-left:5px;
+	border:1px solid #ccc;
+	margin:0 5px 5px 0;
+}
+
+ul.tableauPrixSb li p {
+	float:left;
+	margin-bottom:15px;
+}
+
+ul.tableauPrixSb li p a.allp {
+	padding-left:15px;
+	background:transparent url(http://m.bestofmedia.com/i/tomshardware/v2/sprites3.png) no-repeat scroll left -751px;
+}
+
+ul.tableauPrixSb li p a strong {
+	display:block;
+	color:#af261e;
+	font-size:14px;
+	font-weight:700;
+	font-family:Georgia, "Times New Roman", Times, serif;
+}
+
+ul.tableauPrixSb li p span {
+	display:block;
+	color:#aaa;
+}
+
+#reviewPage #navigation-contentA {
+	margin:0 auto;
+	width:300px;
+	float:none;
+	font-size:12px;
+}
+
+#reviewPage #navigation-contentA .dropMenu-title {
+	width:302px;
+  border-left: 1px solid #BBBBBB;
+  border-top: 1px solid #BBBBBB;
+  border-bottom:1px solid #F0F0F0;
+  height: 26px;
+  font-family: Verdana;
+  color:#3c3b3b;
+  font-weight:bold;
+  -moz-box-shadow:0 1px 1px #333333 inset;
+  box-shadow:0 1px 1px #333333 inset;
+  -webkit-box-shadow:0 1px 1px #333333 inset;
+}
+
+#reviewPage #navigation-contentA .dropMenu-panel {
+	width:308px;
+  top:27px;
+}
+
+#reviewPage #navigation-contentA .dropMenu-panel ul {
+	margin-left:0;
+	padding-left:0;
+}
+
+#reviewPage #navigation-contentA .dropMenu-panel ul li {
+	display:block;
+	text-align:left;
+}
+
+#reviewPage #navigation-contentA .dropMenu-panel ul li a{
+  font-family: Verdana;
+  color:#3c3b3b;
+  font-weight:bold;
+}
+
+#newsPage #forum_search ul {
+	margin:10px 0;
+}
+
+#dossierPage #forum_search ul {
+	margin:0 0 10px;
+}
+
+#forum_search ul li {
+	font-size:11px;
+	margin:2px 0;
+}
+
+#forum_search ul li strong {
+	font-size:11px;
+}
+
+#forum_search .seeAll {
+	margin-right:10px;
+}
+
+#forum_search .picto-forum {
+	background:transparent url(http://m.bestofmedia.com/i/commun/forum/tomshardware/sprite2.png) no-repeat -120px 0;
+	float:left;
+	height:19px;
+	width:20px;
+	margin-right:5px;
+}
+
+#news-content ul {
+	margin:0;
+}
+
+.shopping-s-table {
+	width:250px;
+	float:right;
+	background:#fff;
+	margin:0 0 0 15px;
+}
+
+#news-content ul.shopping-s-table,#news-content ul.product-line {
+	list-style-type:none;
+}
+
+#news-content ul.shopping-s-table {
+	width:250px;
+	float:right;
+	background:#fff;
+	margin:0 0 0 10px;
+}
+#news-content #picDesc ul.shopping-s-table, #news-content #picFullDesc ul.shopping-s-table {
+  float: none;
+  background: none;
+  padding:0;
+  margin:0;
+}
+
+#news-content ul li {
+	padding-left:0;
+}
+
+#news-content .KonaBody ul,#news-content .KonaBody ol {
+	margin-left:5px;
+}
+
+#news-content .KonaBody li {
+	margin-left:14px;
+	list-style-position:outside;
+}
+
+#news-content .shopping-s-table li {
+	background:#eceef0;
+	border-top:1px solid #fff;
+	border-bottom:1px solid #d3d8da;
+	border-right:1px solid #d3d8da;
+	border-left:1px solid #d3d8da;
+	text-align:left;
+	padding:2px 5px;
+	margin:0;
+	list-style-position:outside;
+}
+
+#news-content .shopping-s-table .shopping-first {
+	background:#fff url(http://m.bestofmedia.com/i/tomshardware/design/th_shopping_s.png) no-repeat scroll left -171px;
+	height:24px;
+	border:0;
+	padding:5px 0 0 27px;
+	list-style-position:outside;
+	color:#fff;
+	font-size:13px;
+	font-weight:bold;
+}
+
+#news-content .shopping-s-table .shopping-lastOffer {
+	background:#fff url(http://m.bestofmedia.com/i/tomshardware/design/th_shopping_s.png) no-repeat scroll left top;
+	border:0;
+  border-top:1px solid #fff;
+	height:32px;
+}
+
+#news-content .shopping-s-table .shopping-last {
+	background:#fff url(http://m.bestofmedia.com/i/tomshardware/design/th_shopping_s.png) no-repeat scroll left top;
+	height:32px;
+	border:0;
+	padding:6px 10px 0 0;
+	text-align:right;
+}
+
+#news-content .shopping-s-table .product-line .shopping-name {
+	width:150px;
+	padding:0 0 0 2px;
+	margin:0;
+	float:left;
+	height:20px;
+	overflow:hidden;
+	border:0 solid lime;
+}
+
+#news-content .shopping-s-table .shopping-name a {
+	color:#3c3b3b;
+	background:none;
+	padding:0;
+}
+
+#news-content .shopping-s-table .product-line .shopping-price {
+	float:right;
+	border:0;
+	padding:0 2px 0 0;
+	margin:0;
+	text-align:right;
+	width:80px;
+	border:0 solid lime;
+}
+
+#news-content .shopping-s-table .shopping-price a {
+	color:#02284d;
+	font-weight:bold;
+	background:none;
+	padding:0;
+}
+
+#news-content .shopping-s-table .shopping-last a {
+	color:#02284d;
+	font-weight:bold;
+	padding:0 0 0 15px;
+	text-decoration:underline;
+}
+
+#news-content .shopping-s-table .shopping-off {
+	background:transparent url(http://m.bestofmedia.com/i/tomshardware/design/th_shopping_s.png) no-repeat scroll left -90px;
+}
+
+#news-content .shopping-s-table .shopping-on {
+	background:transparent url(http://m.bestofmedia.com/i/tomshardware/design/th_shopping_s.png) no-repeat scroll left -53px;
+}
+
+#news-content .shopping-s-table .hide {
+	display:none;
+}
+
+.shopping-s-table .shopping-last a:hover {
+	text-decoration:none;
+}
+
+.shopping-moreShops {
+	display:none;
+}
+
+#news-content .shopping-s-table ul.product-line {
+	padding:0;
+	margin:0;
+}
+
+
+	
+/* shopping large table */
+
+	
+/* =================================== */
+
+	
+/* = shopping-table background override = */
+
+	
+/* =================================== */
+.shopping-table .bd,.shopping-table .t,.shopping-table .b,.shopping-table .b div {
+	background-image:url(http://m.bestofmedia.com/i/tomshardware/design/shopping-table-euro.png);
+}
+
+.shopping-table .t {
+	width:28px;
+  height:28px;
+}
+
+.shopping-table .bd {
+	border:0 solid green;
+	padding-right:1px;
+}
+
+#news-content .shopping-table h3 {
+	color:#fff;
+	margin:0;
+  height:28px;
+  line-height:28px;
+  padding:0;
+}
+
+#news-content	.shopping-table .shopping-content {
+	background:#eceef0;
+	margin:0 0 0 -28px;
+	padding:0;
+	font-size:12px;
+	list-style-type:none;
+}
+
+#news-content .shopping-table ul {
+	list-style-type:none;
+}
+
+#news-content .shopping-content li {
+	border-top:1px solid #fff;
+	border-bottom:1px solid #d3d8da;
+	border-left:1px solid #d3d8da;
+	text-align:left;
+	padding:5px 10px;
+	margin:0;
+	list-style-position:outside;
+}
+
+#news-content .shopping-line .shopping-otherShops {
+	float:right;
+}
+
+#news-content .shopping-content .first {
+	border-top:0;
+}
+
+#news-content .shopping-content .last {
+	border-bottom:0;
+}
+
+#news-content .shopping-content .single {
+	border:0;
+}
+
+#news-content .shopping-line {
+	margin:0;
+	padding:0;
+}
+
+#news-content .shopping-line .shopping-img {
+	padding-top:0;
+	margin:0;
+}
+
+#news-content .shopping-line li img {
+	width:30px;
+}
+
+#news-content .shopping-line li {
+	border:0;
+	float:left;
+	padding:7px 0 0;
+	text-align:left;
+}
+
+#news-content .shopping-line .shopping-product {
+	height:20px;
+	overflow:hidden;
+	padding-left:0;
+	width:190px;
+}
+
+#news-content .shopping-line .shopping-price {
+	height:20px;
+	overflow:hidden;
+	width:215px;
+}
+
+#news-content .shopping-product a {
+	color:#3c3b3b;
+	font-weight:bold;
+	font-size:11px;
+}
+
+#container #kk-widget .container table #kk-btn {
+	background:url(http://m.bestofmedia.com/i/tomshardware/design/shopping_see_th_fr.png) left bottom no-repeat;
+	width:43px;
+	height:17px;
+}
+
+#container #kk-widget .container table td.last {
+	position:relative;
+	width:30%;
+	padding:0;
+	vertical-align:top;
+}
+
+#container #kk-widget .container table .price {
+	font-size:13px;
+	color:#3c3b3b;
+}
+
+#container #kk-widget .container {
+	border:0;
+}
+
+#container #kk-widget .container table {
+	width:100%;
+	border-right:none;
+}
+
+#container #kk-widget .container table td {
+	padding:4px 0 0;
+	vertical-align:top;
+}
+
+#container #kk-widget .container .name a {
+	color:#114376;
+	font-family:Verdana,Tahoma,"Nimbus Sans L",arial,sans-serif;
+	font-size:12px;
+}
+
+#container #kk-widget .container .name a:hover {
+	text-decoration:underline;
+}
+
+#container #kk-widget .container .merchant,#container #kk-widget .container .price {
+	color:#3C3B3B;
+	display:block;
+	font-size:11px;
+}
+
+#container #kk-widget .container .price {
+	font-size:12px;
+	font-weight:bold;
+}
+
+.sideOffers {
+	width:99%;
+}
+
+.sideOffers td {
+	border-bottom:1px dotted #ccc;
+	vertical-align:top;
+	padding:5px 2px;
+}
+
+.sideOffers .second {
+	width:145px;
+	padding-right:5px;
+}
+
+.sideOffers .first img {
+	border:1px solid #ccc;
+}
+
+.sideOffers .product-name {
+	font-weight:bold;
+	font-size:12px;
+}
+
+.sideOffers .price,.sideOffers .merchant {
+	color:#3C3B3B;
+	display:block;
+	font-size:11px;
+	margin:0 0 3px;
+}
+
+.sideOffers .last {
+	text-align:center;
+}
+
+.sideOffers .price {
+	font-size:12px;
+	font-weight:bold;
+	padding:0;
+	margin:0;
+}
+
+.sideOffers .shopping-side {
+	margin:2px auto;
+	padding:2px 7px;
+	color:#fff;
+	font-weight:bold;
+  background-color:#AF261E;
+  -moz-border-radius: 3px 3px 3px 3px;
+  border-radius: 3px 3px 3px 3px;
+  -webkit-border-radius: 3px 3px 3px 3px;
+}
+
+.keywords li {
+	float:left;
+	padding-right:4px;
+}
+
+.notice {
+	border:2px solid #eee;
+	padding:10px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+
+.listing.featured a.linkTo {
+	display: block;
+}
+
+#internalSidebar .forumLink{
+	color:#114376;
+	font-size:16px;
+	font-weight:bold;
+	text-align:left;
+	display:block;
+	width:100%;
+	margin:10px 0 10px 0;
+}
