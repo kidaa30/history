@@ -1,0 +1,16 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# You are currently bisecting, started from branch 'master'.
+#
+# Changes to be committed:
+#	modified:   Did Steve Jobs Steal The iPad  Genius Inventor Alan Kay Reveals All_files/beacon.js
+#	deleted:    Did Steve Jobs Steal The iPad  Genius Inventor Alan Kay Reveals All_files/news_details;dcopt=ist;sz=160x600,120x600;tile=3;ord=' + ord + ';supercat=us_other;cat=us_other;art=toms_us;art=alan-kay;art=steve-jobs;art=ipad;art=iphone;bkw=Apple;theme=Apple;retkw=texas;retkw=search_engines_internet_portals;retkw=media_and_internet;re
+#	deleted:    Did Steve Jobs Steal The iPad  Genius Inventor Alan Kay Reveals All_files/news_details;sz=300x250,300x600,336x280,250x250,1x1;tile=2;ord=' + ord + ';supercat=us_other;cat=us_other;art=toms_us;art=alan-kay;art=steve-jobs;art=ipad;art=iphone;bkw=Apple;theme=Apple;retkw=texas;retkw=search_engines_internet_portals;retkw=media_and_i
+#	deleted:    Did Steve Jobs Steal The iPad  Genius Inventor Alan Kay Reveals All_files/news_details;sz=728x90,468x60,980x150,990x200,1x1,990x90,950x200;tile=1;ord=' + ord + ';supercat=us_other;cat=us_other;art=toms_us;art=alan-kay;art=steve-jobs;art=ipad;art=iphone;bkw=Apple
+#	modified:   Did Steve Jobs Steal The iPad  Genius Inventor Alan Kay Reveals All_files/r.js
+#
+
